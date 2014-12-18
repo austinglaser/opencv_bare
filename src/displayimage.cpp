@@ -7,7 +7,7 @@ int main(int argc, char** argv )
 {
     if ( argc != 2 )
     {
-        printf("usage: DisplayImage.out <Image_Path>\n");
+        printf("usage: %s <Image_Path>\n", argv[0]);
         return -1;
     }
 
